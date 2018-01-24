@@ -5,5 +5,28 @@
   "main": "index.js",
   "repository": "https://github.com/xmfenbei/generator-demo.git",
   "author": "xmfenbei <xmfenbei@163.com>",
-  "license": "None"
+  "license": "None",
+  "dependencies": {
+    "commander": "^2.13.0",
+    "ejs": "^2.5.7",
+    "mkdirp": "^0.5.1",
+    "sorted-object": "^2.0.1"
+  },
+//  "main": "bin/express-demo.js",
+  "preferGlobal": true,
+  "bin": {
+    "express-demo": "./bin/express-demo.js"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "files": [
+    "bin/",
+    "templates/"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-ci": "mocha --reporter spec --check-leaks test/"
+  }
 }
