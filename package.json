@@ -1,0 +1,9 @@
+{
+  "name": "generator-demo",
+  "version": "1.0.0",
+  "description": "generator-demo",
+  "main": "index.js",
+  "repository": "https://github.com/xmfenbei/generator-demo.git",
+  "author": "xmfenbei <xmfenbei@163.com>",
+  "license": "None"
+}
